@@ -9,22 +9,21 @@
     <meta http-equiv="Content-Security-Policy" content="frame-ancestors https://interfaces.zapier.com">
     <script async type='module' src='https://interfaces.zapier.com/assets/web-components/zapier-interfaces/zapier-interfaces.esm.js'></script>
     <style>
-
-body {
-            margin: 0;
-            padding: 0;
-            background-color: #f8f8f8;
-            /* Allow scrolling if content exceeds the viewport */
-            overflow: auto;
-        }
-
+        body {
+                margin: 0;
+                padding: 0;
+                background-color: #f8f8f8;
+                /* Allow scrolling if content exceeds the viewport */
+                overflow: auto;
+            }
         zapier-interfaces-chatbot-embed {
             width: 100%; /* Ensure the element fits within the viewport width */
             height: calc(100vh - 20px); /* Adjust to prevent possible overflows */
             max-width: 100%;
             max-height: 100%;
             box-sizing: border-box; /* Include padding and border in width/height calculations */
-    </style>>
+        }
+    </style>
 </head>
 <body>
      <zapier-interfaces-chatbot-embed is-popup='false' chatbot-id='cm1aagkof0018homg4476dvo9'></zapier-interfaces-chatbot-embed>
